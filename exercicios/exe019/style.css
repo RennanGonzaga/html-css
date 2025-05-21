@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 255, 203 );
+}
+
+h1{
+    color:  rgb(4, 109, 0)  
+
+}
+    
+#principal{
+    background-color: rgb(4, 109, 0);
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color:  rgb(51, 77, 49);
+}
+
+.basico{
+    color:rgb(51, 77, 49 );
+    font-weight: bold;
+}
+
+.intermediario{
+    color:rgb(173, 201, 14);
+}
+
+.avancado{
+    color:rgb(219, 29, 29);
+
+}
+
+span{
+    text-decoration: underline;
+}
+
+p:hover{
+    text-decoration: underline #0000ff;     ;
+
+
+}
