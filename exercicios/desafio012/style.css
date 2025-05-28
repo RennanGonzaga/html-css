@@ -71,13 +71,30 @@ section.imagem >p{
     background-color: rgba(0, 0, 0, 0.253);
 }
 
+section.imagem2 >p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
 .normal{
     background-color: white;
 }
 
 .imagem{
+    background-image: url("imagens/background001.jpg");
+    background-position: center center;
+    background-attachment: fixed;
     background-color: rgba(71, 70, 70, 0.87);
     color: white;
+}
+
+.imagem2{
+    background-image: url("imagens/background002.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: rgba(71, 70, 70, 0.87);
+    color: white;
+
 }
 
 
@@ -92,7 +109,7 @@ footer{
 }
 
 footer p{
-    padding-top: 0px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: normal;
